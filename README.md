@@ -15,14 +15,14 @@ using ionirctl to run ionir commands remotely using REST APIs
 
 
 
-### Note: you may need to add execute permissions (chmod +x) to the install.sh file 
-###      Required packages - bash ; bash-completion curl miller jq
+** Note: you may need to add execute permissions (chmod +x) to the install.sh file 
+**      Required packages - bash ; bash-completion curl miller jq
 
 4.	Run the following command to complete the installation:
     ``` source ~/ionirctl_bash_completion```
 
 
-##To configure the cluster url and the user credentials run the following command
+## To configure the cluster url and the user credentials run the following command
 ``` ionirctl configure ```
 
 Ionir Cluster DNS/IP []: <cluster-url>
