@@ -25,16 +25,17 @@ using ionirctl to run ionir commands remotely using REST APIs
 ## To configure the cluster url and the user credentials run the following command
 ``` ionirctl configure ```
 
-Ionir Cluster DNS/IP []: <cluster-url>
+> Ionir Cluster DNS/IP []: <cluster-url>
     
-User: <user>
+> User: <user>
     
-Password: <Password>
+> Password: <Password>
 
 ## Ionirctl Usage
 **When the REST command does not have a body, run:**
 
 ``` ionircli <operation> ```
+
 Example: 
 
 ``` ionirctl getClusters ```
@@ -44,6 +45,7 @@ Example:
 With body: <json> | ionirctl <operation>
 
 ``` echo '{"extClusterId":"2"}' | ionirctl ```
+
 Example: 
 
 ``` echo '{"clusterName":"Miko","clusterColor":"#EF9B0F"}' | ionirctl setupCluster clusterId=0 ```
