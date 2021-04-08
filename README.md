@@ -31,3 +31,21 @@ User: <user>
     
 Password: <Password>
 
+## Ionirctl Usage
+**When the REST command does not have a body, run:**
+
+``` ionircli <operation> ```
+Example: 
+
+``` ionirctl getClusters ```
+
+**When the REST command has a body, run:**
+
+With body: <json> | ionirctl <operation>
+
+``` echo '{"extClusterId":"2"}' | ionirctl ```
+Example: 
+
+``` echo '{"clusterName":"Miko","clusterColor":"#EF9B0F"}' | ionirctl setupCluster clusterId=0 ```
+
+
