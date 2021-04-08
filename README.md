@@ -26,5 +26,8 @@ using ionirctl to run ionir commands remotely using REST APIs
 ``` ionirctl configure ```
 
 Ionir Cluster DNS/IP []: <cluster-url>
+    
 User: <user>
-Password: <Password
+    
+Password: <Password>
+
